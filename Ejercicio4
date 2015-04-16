@@ -1,0 +1,20 @@
+# Thais Lizeth Santos Acosta
+# A01630056
+# Partial 2 
+
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+    
+a = (int(input("Dame un numero:")))
+
+do_fib=fibonacci(a)
+
+if a==0:
+	print ("El número de Fibonacci es: 0")
+elif a==1:
+	print ("El número de Fibonacci es: 1")
+else:
+	print("El número de Fibonacci es:", do_fib)
+
