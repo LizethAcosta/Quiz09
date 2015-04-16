@@ -1,0 +1,14 @@
+# Thais Lizeth Santos Acosta
+# A01630056
+# Partial 2 
+
+def triangulo(n):
+    for i in range(1,n+1):
+        print ("T"*i)
+    for i in range(n,0,-1):
+        print ("T"*i)
+
+a = (int(input("Give me a number for a triangle:")))
+print()
+
+triangulo(a)
