@@ -1,0 +1,25 @@
+# Thais Lizeth Santos Acosta
+# A01630056
+# Partial 2 
+
+import math 
+def distancia(a,b,c,d):
+		h = c - a
+		k = d - b
+		t = (h**2) + (k**2)
+		s = math.sqrt(t)
+		return s
+
+print()
+f = (int(input("Dame la primera x: ")))
+print()
+g = (int(input("Dame la primera y: ")))
+print()
+j = (int(input("Dame la segunda x: ")))
+print()
+l = (int(input("Dame la segunda y: ")))
+print()
+
+do_dis = distancia (f,g,j,l)
+
+print ("La hipotenusa es:",do_dis)
